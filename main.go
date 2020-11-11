@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	apiClient := etsgo.BuildApiClient("vuj1qgnarw7oqljekwaf5s96")
-	shopId := "22695679"
+	apiClient := etsgo.BuildApiClient("<apiKey>")
+	shopId := "<shopId>"
 
 	pathParams := map[string]string{"shop_id": shopId}
 
